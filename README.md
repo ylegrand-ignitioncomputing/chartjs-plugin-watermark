@@ -13,11 +13,24 @@ For Chart.js 2, use [version ^1](https://www.npmjs.com/package/chartjs-plugin-wa
 
 ## Installation
 
-### Using NPM
+### Using a Javascript Package manager
 
+First install the package using a package manager such as `npm` or `yarn`, then import to your project.
+
+#### Install with NPM
 ```
 npm i chartjs-plugin-watermark
 ```
+
+#### Install with yarn
+
+```
+yarn add chartjs-plugin-watermark
+```
+
+#### Use the package
+
+In the relevant `.js` file (e.g. `application.json`):
 
 ```js
 import { Chart } from 'chart.js'
